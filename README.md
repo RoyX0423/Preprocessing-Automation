@@ -1,4 +1,4 @@
-# preprocessing-automation
+# Preprocessing-Automation
 
 监控视频 -> 可标注图片数据集的预处理流水线。
 
@@ -73,7 +73,7 @@ python pipeline.py --input /path/to/输入目录 --output /path/to/输出目录 
 python pipeline.py --input ... --output ... --force                                   # 忽略增量全量重跑
 ```
 
-## 目录结构（入库内容）
+## 目录结构
 
 | 路径 | 作用 |
 |---|---|
@@ -82,7 +82,7 @@ python pipeline.py --input ... --output ... --force                             
 | static/index.html | 前端页面 |
 | start.sh / start.bat | 一键启动脚本 |
 
-运行期自动生成（不入库，参见 .gitignore）：output/、uploads/、ls_config.json、server.log、__pycache__/。
+运行期自动生成：output/、uploads/、ls_config.json、server.log、__pycache__/。
 
 ## 常见问题
 
