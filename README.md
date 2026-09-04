@@ -84,6 +84,13 @@ python pipeline.py --input ... --output ... --force                             
 
 运行期自动生成：output/、uploads/、ls_config.json、server.log、__pycache__/。
 
+
+## Changelog
+
+### v1.0 · 2026-09-03
+
+- 初始版本：完整流水线（S1 批量转码 / 抽帧与质量过滤 / dHash 差分去重 / 标准化 / round 打包 / manifest 溯源）与 CLI
+
 ## 常见问题
 
 - 端口占用：8050 被占用时修改 app.py 末尾的 `app.run(port=8050)`。
